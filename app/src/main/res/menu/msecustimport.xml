@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileinventorysuit.MainActivity" >
+
+     <item
+        android:id="@+id/msecust_mnu_cust"
+        android:icon="@drawable/import_menu"
+        android:title="Get Customers"/> 
+    <item
+        android:id="@+id/msecust_mnu_order"
+        android:icon="@drawable/import_menu"
+        android:title="Get Orders"/> 
+   <item
+        android:id="@+id/msecust_mnu_order_details"
+        android:icon="@drawable/settings_menu"
+        android:title="Get Order Details"/>
+
+    <item
+        android:id="@+id/msecust_mnu_exit"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Exit"/>
+
+
+</menu>

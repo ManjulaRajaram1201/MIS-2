@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileinventorysuit.MainActivity" >
+
+    <item
+        android:id="@+id/shp_mnu_order_ok"
+        android:icon="@drawable/export_menu"
+        android:title="Ok"/> 
+
+
+</menu>

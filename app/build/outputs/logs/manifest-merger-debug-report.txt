@@ -1,0 +1,383 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:1-177:12
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:1-177:12
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:1-177:12
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:1-177:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a015a85cca62dc4b0a18f37b0ed64504\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8154159f9b4601b918aa332055fe8322\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f541ce73a123fffe7d39914876334e64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\36aef6cccf0449c3593004afba0a1c04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c185d5b32b5509403e438911e65749e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\cc1dde3f74f795c4ebfc1ea813a8e0fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\cb032de98d46fb9186836b530d37829f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\80c1018c276b01e15e3c20e5637e3687\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\927c452362da645fff0f74103a7e7db1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6e054c171ba9016260a50568955b0f11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\89ece9c4d7af4d6868aff090bf777cf0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\1dd36f6d2a565f6e060269fea5ac6e22\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\61edc1fcc586ece1b7a15cf5ce8ef4a7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\89dc31c7f4f5c1774865210b3201e5cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\283c8131156c66c35c79fc97e8e8aedf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\73b55680436223a5682223c5a218bbe0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1ebc8ee68ef6f7501ef2a96f243b5c90\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a5e49d7b6aef13bf641a7881a08f74de\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fc41212b00acf445c1395d97ec6358eb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b579e54a1b92020e6b65b401fa92e858\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\fcb61bd4c1b98c838f07b6726078d68e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7296f8d06875ffd02c69289c5e8e1d25\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0eeeeee023a88207e6e05c9373b8932d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2af5f31b6cbb029299d7e3b1803615f9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\87fb0c6329f338f753eb9ebb596d7a4c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e0ba8af2b157f98c97558063a97703fa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\cb2be58085271a10dc4a1405ab899ebc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\abb0e6c56caa7e84d6ed43d5242ee00f\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:1-177:12
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:1-177:12
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:1-177:12
+	package
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a015a85cca62dc4b0a18f37b0ed64504\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a015a85cca62dc4b0a18f37b0ed64504\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8154159f9b4601b918aa332055fe8322\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8154159f9b4601b918aa332055fe8322\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f541ce73a123fffe7d39914876334e64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f541ce73a123fffe7d39914876334e64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\36aef6cccf0449c3593004afba0a1c04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\36aef6cccf0449c3593004afba0a1c04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c185d5b32b5509403e438911e65749e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\c185d5b32b5509403e438911e65749e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\cc1dde3f74f795c4ebfc1ea813a8e0fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\cc1dde3f74f795c4ebfc1ea813a8e0fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\cb032de98d46fb9186836b530d37829f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\cb032de98d46fb9186836b530d37829f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\80c1018c276b01e15e3c20e5637e3687\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\80c1018c276b01e15e3c20e5637e3687\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\927c452362da645fff0f74103a7e7db1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\927c452362da645fff0f74103a7e7db1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6e054c171ba9016260a50568955b0f11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6e054c171ba9016260a50568955b0f11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\89ece9c4d7af4d6868aff090bf777cf0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\89ece9c4d7af4d6868aff090bf777cf0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\1dd36f6d2a565f6e060269fea5ac6e22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\1dd36f6d2a565f6e060269fea5ac6e22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\61edc1fcc586ece1b7a15cf5ce8ef4a7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\61edc1fcc586ece1b7a15cf5ce8ef4a7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\89dc31c7f4f5c1774865210b3201e5cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\89dc31c7f4f5c1774865210b3201e5cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\283c8131156c66c35c79fc97e8e8aedf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\283c8131156c66c35c79fc97e8e8aedf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\73b55680436223a5682223c5a218bbe0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\73b55680436223a5682223c5a218bbe0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1ebc8ee68ef6f7501ef2a96f243b5c90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1ebc8ee68ef6f7501ef2a96f243b5c90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a5e49d7b6aef13bf641a7881a08f74de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a5e49d7b6aef13bf641a7881a08f74de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fc41212b00acf445c1395d97ec6358eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fc41212b00acf445c1395d97ec6358eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b579e54a1b92020e6b65b401fa92e858\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b579e54a1b92020e6b65b401fa92e858\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\fcb61bd4c1b98c838f07b6726078d68e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\fcb61bd4c1b98c838f07b6726078d68e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7296f8d06875ffd02c69289c5e8e1d25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7296f8d06875ffd02c69289c5e8e1d25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0eeeeee023a88207e6e05c9373b8932d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0eeeeee023a88207e6e05c9373b8932d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2af5f31b6cbb029299d7e3b1803615f9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2af5f31b6cbb029299d7e3b1803615f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\87fb0c6329f338f753eb9ebb596d7a4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\87fb0c6329f338f753eb9ebb596d7a4c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e0ba8af2b157f98c97558063a97703fa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e0ba8af2b157f98c97558063a97703fa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\cb2be58085271a10dc4a1405ab899ebc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\cb2be58085271a10dc4a1405ab899ebc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\abb0e6c56caa7e84d6ed43d5242ee00f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\abb0e6c56caa7e84d6ed43d5242ee00f\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:12:4-13:23
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:12:21-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:14:5-15:23
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:16:5-65
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:21:5-22:47
+	tools:ignore
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:22:9-44
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:21:22-70
+application
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:25:5-174:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1ebc8ee68ef6f7501ef2a96f243b5c90\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1ebc8ee68ef6f7501ef2a96f243b5c90\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a5e49d7b6aef13bf641a7881a08f74de\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a5e49d7b6aef13bf641a7881a08f74de\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1ebc8ee68ef6f7501ef2a96f243b5c90\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:28:9-51
+	android:icon
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:29:9-52
+activity#com.mis.common.MainActivity
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:30:9-39:20
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:32:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:33:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:31:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.mis.controller.Mse_Customer
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:40:9-43:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:42:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:43:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:41:13-59
+activity#com.mis.controller.MseExport
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:44:9-47:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:46:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:47:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:45:13-56
+activity#com.mis.controller.MseImportData
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:48:9-51:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:50:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:51:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:49:13-60
+activity#com.mis.controller.MseOrderList
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:52:9-55:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:54:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:55:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:53:13-59
+activity#com.mis.controller.MseItemList
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:56:9-59:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:58:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:59:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:57:13-58
+activity#com.mis.controller.MseExportResult
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:61:9-64:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:63:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:64:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:62:13-62
+activity#com.mis.controller.Int_Cost
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:66:10-69:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:68:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:69:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:67:13-55
+activity#com.mis.controller.IntExport
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:70:9-73:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:72:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:73:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:71:13-56
+activity#com.mis.controller.IntImportData
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:74:9-77:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:76:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:77:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:75:13-60
+activity#com.mis.controller.IntOrderList
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:78:9-81:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:80:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:81:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:79:13-59
+activity#com.mis.controller.IntItemList
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:82:9-85:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:84:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:85:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:83:13-58
+activity#com.mis.controller.IntExportResult
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:87:9-90:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:89:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:90:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:88:13-62
+activity#com.mis.common.Login
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:94:9-97:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:96:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:97:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:95:13-48
+activity#com.mis.controller.Mpr_Customer
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:102:9-105:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:104:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:105:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:103:13-59
+activity#com.mis.controller.MprExport
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:106:9-109:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:108:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:109:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:107:13-56
+activity#com.mis.controller.MprImportData
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:110:9-113:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:112:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:113:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:111:13-60
+activity#com.mis.controller.MprOrderList
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:114:9-117:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:116:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:117:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:115:13-59
+activity#com.mis.controller.MprItemList
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:118:9-121:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:120:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:121:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:119:13-58
+activity#com.mis.controller.MprExportResult
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:123:9-126:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:125:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:126:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:124:13-62
+activity#com.mis.controller.InventoryCount
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:128:9-131:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:130:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:131:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:129:13-61
+activity#com.mis.controller.MltExportResult
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:136:9-139:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:138:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:139:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:137:13-62
+activity#com.mis.controller.MltExport
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:140:9-143:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:142:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:143:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:141:13-56
+activity#com.mis.controller.MltMain
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:145:9-148:67
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:147:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:148:13-64
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:146:13-54
+activity#com.mis.controller.MltUpdate
+ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:151:9-154:57
+	android:screenOrientation
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:153:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:154:13-54
+	android:name
+		ADDED from C:\Users\matheswaran.e\StudioProjects\MIS Universal\app\src\main\AndroidManifest.xml:152:13-56

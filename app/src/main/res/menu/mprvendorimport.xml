@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileinventorysuit.MainActivity" >
+
+     <item
+        android:id="@+id/mprvendor_mnu_vendor"
+        android:icon="@drawable/import_menu"
+        android:title="Get Vendors"/> 
+    <item
+        android:id="@+id/mprvendor_mnu_po"
+        android:icon="@drawable/import_menu"
+        android:title="Get Po"/> 
+   <item
+        android:id="@+id/mprvendor_mnu_po_details"
+        android:icon="@drawable/settings_menu"
+        android:title="Get Po Details"/>
+
+    <item
+        android:id="@+id/mprvendor_mnu_exit"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Exit"/>
+
+
+</menu>

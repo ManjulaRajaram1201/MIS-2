@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_green"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/txt_mseTitle"
+        style="@style/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/internalTitle" />
+
+    <View
+        android:id="@+id/txt_mseView"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/txt_mseTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#2E9AFE" />
+
+    <LinearLayout
+        android:id="@+id/lay_msefull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_mseView"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/mseOrder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_OrdListOrdNo"
+                    style="@style/textRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:button="@drawable/radiobutton_selector"
+                    android:checked="true"
+                    android:drawablePadding="50dp"
+    				android:paddingLeft="10dip"
+                    android:text="@string/internal_order_no" />
+
+                <RadioButton
+                    android:id="@+id/radio_OrdListCustNo"
+                    style="@style/textRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight=".7"
+                    android:drawablePadding="50dp"
+    				android:paddingLeft="10dip"
+                    android:button="@drawable/radiobutton_selector"
+                    android:text="@string/internal_customer_no" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_OrderLst_Search"
+            style="@style/EditTextAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mseOrder"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:hint="@string/search" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_OrderLst_Search"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lay_fullTitle_mse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    style="@style/textRegular_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:text="@string/internal_order_no"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/textRegular_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:text="@string/internal_customer_no"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lstSelOrder"
+                style="@style/ListViewAppTheme.White"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/lay_fullTitle_mse" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_mse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="41dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_OrderLstImport"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_OrderLstExport"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_OrderLstExit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/border_green"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/txt_mltTitle"
+        style="@style/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/mltQtyUpdatee" />
+
+    <View
+        android:id="@+id/txt_mltView"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/txt_mltTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#2E9AFE" />
+     <LinearLayout
+        android:id="@+id/layFromLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_mltView"
+        android:orientation="horizontal"
+         android:layout_marginTop="16dp" >
+
+         <TextView
+             android:id="@+id/txt_frmLoc"
+             style="@style/textRegular"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             
+             android:text="@string/mltFrom" />
+
+         <Spinner
+             android:id="@+id/spn_frmLoc"
+             style="@style/SpinnerItemAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight=".6"
+            />
+
+    </LinearLayout>
+  <LinearLayout
+        android:id="@+id/layToLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layFromLoc"
+        android:orientation="horizontal"
+         android:layout_marginTop="16dp" >
+
+         <TextView
+             android:id="@+id/txt_Loc"
+             style="@style/textRegular"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:text="@string/mltTo" />
+
+         <Spinner
+             android:id="@+id/spn_ToLoc"
+               style="@style/SpinnerItemAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight=".6"
+              />
+
+    </LinearLayout>
+      <LinearLayout
+        android:id="@+id/layUOMLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layToLoc"
+        android:orientation="horizontal"
+         android:layout_marginTop="16dp" >
+
+         <TextView
+             android:id="@+id/txt_LocUom"
+             style="@style/textRegular"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:gravity="left"
+             android:text="@string/mltUOM" />
+
+         <Spinner
+             android:id="@+id/spn_Uom"
+               style="@style/SpinnerItemAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_weight=".6"
+             />
+
+    </LinearLayout>
+        <LinearLayout
+        android:id="@+id/layQuantity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layUOMLoc"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_mltcost"
+            style="@style/textRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center_vertical"
+            android:text="@string/mltQuantity" />
+
+        <EditText
+            android:id="@+id/edtmltCost"
+            style="@style/EditTextAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_mltshipIncr"
+            style="@style/ImageButtonAppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".15"
+            android:background="@drawable/up" />
+
+        <Button
+            android:id="@+id/btn_mltshipDecr"
+            style="@style/ImageButtonAppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".15"
+            android:background="@drawable/down" />
+    </LinearLayout>
+      
+  <LinearLayout
+        android:id="@+id/layButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layQuantity"
+        android:orientation="vertical" >
+
+          <Button
+            android:id="@+id/btn_mltshipOk"
+            style="@style/ButtonAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/mltOk" />     
+        <Button
+            android:id="@+id/btn_mltshipCancel"
+            style="@style/ButtonAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"            
+            android:text="@string/mltCancel" />
+
+    </LinearLayout>
+</RelativeLayout>

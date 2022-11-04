@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/drawable/apptheme_btn_default_holo_dark.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/drawable/apptheme_btn_default_holo_light.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/drawable/apptheme_scrubber_control_selector_holo_light.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/drawable/border_green.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/drawable/border_orange.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/drawable/custom_bg_1.xml" value="0.1484375" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/drawable/radiobutton_selector.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/layout-large/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/layout-large/internal_shipment_entry.xml" value="0.181640625" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/layout-large/login.xml" value="0.181640625" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/layout-large/mlt_main.xml" value="0.58125" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/layout-large/mltupdate.xml" value="0.181640625" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/Users/matheswaran.e/StudioProjects/MIS Universal/app/src/main/res/layout/login.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

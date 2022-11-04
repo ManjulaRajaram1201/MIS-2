@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileinventorysuit.MainActivity" >
+
+     <item
+        android:id="@+id/internalimport_mnu_cust"
+        android:icon="@drawable/import_menu"
+        android:title="Get Cost Center"/> 
+        
+    <item
+        android:id="@+id/internalimport_mnu_order"
+        android:icon="@drawable/import_menu"
+        android:title="Get Internal Issue"/> 
+   <item
+        android:id="@+id/internalimport_mnu_order_details"
+        android:icon="@drawable/settings_menu"
+        android:title="Get II Details"/>
+
+    <item
+        android:id="@+id/mseimport_mnu_exit"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Exit"/>
+
+
+</menu>

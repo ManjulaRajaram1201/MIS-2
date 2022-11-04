@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/txt_fullItemNo_mpr"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        style="@style/textRegular_list_body"
+        android:text="Popopopooppo"
+         >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_fullDesc_mpr"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Popopopooppo"
+      style="@style/textRegular_list_body">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_fullLoc_mpr"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Popopopooppo"
+        style="@style/textRegular_list_body" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_fullord_mpr"
+        android:layout_width="135dp"
+        android:text="Popopopooppo"
+        android:layout_height="wrap_content"
+        style="@style/textRegular_list_body" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_fullrecqty_mpr"
+        android:layout_width="150dp"
+        android:text="Popopopooppo"
+        android:layout_height="wrap_content"
+       style="@style/textRegular_list_body">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_fullUom_mpr"
+        android:layout_width="100dp"
+android:text="Popopopooppo"
+        android:layout_height="wrap_content"
+      style="@style/textRegular_list_body">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_fullComment_mpr"
+        android:layout_width="120dp"
+        android:text="Popopopooppo"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        style="@style/textRegular_list_body" >
+    </TextView>
+
+</LinearLayout>

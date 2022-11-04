@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/main_mnu_import"
+        android:icon="@drawable/import_menu"
+        android:title="Import"/>
+    <item
+        android:id="@+id/main_mnu_Export"
+        android:icon="@drawable/export_menu"
+        android:title="Export"/>
+
+    <item
+        android:id="@+id/main_mnu_exit"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Exit"/>
+    
+</menu>

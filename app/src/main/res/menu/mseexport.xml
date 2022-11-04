@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileinventorysuit.MainActivity" >
+
+    <item
+        android:id="@+id/mseexport_mnu_order_exp"
+        android:icon="@drawable/export_menu"
+        android:title="Export"/> 
+
+        <item
+        android:id="@+id/mseexport_mnu_del"        
+        android:title="Delete"/>
+    <item
+        android:id="@+id/mseexport_mnu_cancel"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Cancel"/>
+
+
+</menu>

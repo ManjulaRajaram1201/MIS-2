@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileinventorysuit.MainActivity" >
+
+     <item
+        android:id="@+id/main_mnu_import"
+        android:icon="@drawable/import_menu"
+        android:title="Import"/>
+     <item
+        android:id="@+id/main_mnu_new"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="New"/>
+    <item
+        android:id="@+id/main_mnu_save"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Save"/>
+    <item
+        android:id="@+id/main_mnu_Export"
+        android:icon="@drawable/export_menu"
+        android:title="Export"/>
+
+    <item
+        android:id="@+id/main_mnu_exit"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Exit"/>
+    
+
+
+</menu>

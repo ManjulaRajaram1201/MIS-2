@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_green"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/txt_mprTitle"
+        style="@style/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/mprTitle" />
+
+    <View
+        android:id="@+id/txt_mprView"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/txt_mprTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#2E9AFE" />
+
+    <LinearLayout
+        android:id="@+id/lay_mprfull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_mprView"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lay_mprOrder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radioImpBasedOn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_OrderImport"
+                    style="@style/textRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:button="@drawable/radiobutton_selector"
+                    android:checked="true"
+                      android:drawablePadding="50dp"
+    			android:paddingLeft="10dip"
+                    android:text="@string/mpr_po_no" />
+
+                <RadioButton
+                    android:id="@+id/radio_VendorImport"
+                    style="@style/textRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight=".7"
+                      android:drawablePadding="50dp"
+    			android:paddingLeft="10dip"
+                    android:button="@drawable/radiobutton_selector"
+                    android:text="@string/mpr_vendor_no" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_mprcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtCategory"
+                style="@style/textRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".27"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/mprcategory" />
+
+            <Spinner
+                android:id="@+id/spn_OrderImpCategory"
+                style="@style/SpinnerDropDownItemAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".23" />
+
+            <TextView
+                android:id="@+id/mpr_custtxtfilter"
+                style="@style/textRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".27"
+                android:gravity="center|center_vertical"
+                android:text="@string/mprfilter" />
+
+            <Spinner
+                android:id="@+id/spn_OrderImpFilter"
+                style="@style/SpinnerDropDownItemAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".23" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_OrderImpValue"
+            style="@style/EditTextAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:hint="@string/mprentervalue" >
+        </EditText>
+
+  
+        <LinearLayout
+            android:id="@+id/lay_mprdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txt_mprFromDate"
+                style="@style/textRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".27"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/mprfrmdate" />
+
+            <EditText
+                android:id="@+id/edt_OrderImpFromDate"
+                style="@style/EditTextAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight=".23"
+                android:text="@string/mprfrmdate" />
+
+            <TextView
+                android:id="@+id/txt_mprToDate"
+                style="@style/textRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".27"
+                android:gravity="center|center_vertical"
+                android:text="@string/mprtodate" />
+
+            <EditText
+                android:id="@+id/edt_OrderImpToDate"
+                style="@style/EditTextAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight=".23"
+                android:text="@string/mprtodate" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview1"
+            style="@style/textRegular_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#000000"
+            android:text="@string/podetails"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lst_ImpPurOrder"
+            style="@style/ListViewAppTheme.White"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_PO_mic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:visibility="gone" 
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_OrderImpGetOrder"
+            style="@style/ButtonAppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/getord"
+            android:visibility="gone"  />
+
+        <Button
+            android:id="@+id/btn_OrderImpGetOrderDetails"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_OrderImpExit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+        
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

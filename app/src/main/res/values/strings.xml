@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_spcode">SalesPerson Code</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_setting_in">Settings</string>
+    <string name="action_exit_in">Exit</string>
+    <string name="action_themes_in">Themes</string>
+    <string name="project_name">Mobile Inventory Suit 2.0</string>
+    <string name="project_name_">MIS</string>
+    <string name="shipmententry">Shipment Entry</string>
+    <string name="inventorycount">Inventory Count</string>
+    <string name="locationtransfer">Location Transfer</string>
+    <string name="purchasereceipt">Purchase Receipt</string>
+    <string name="testconnection">Test Connection</string>
+    <string name="serverpath">Server Path</string>
+    <string name="savesettings">Save Setting</string>
+
+    <!-- Strings related to Inventory -->
+    <string name="invTitle">Inventory Count</string>
+    <string name="location">Location</string>
+    <string name="itemno">ItemNum</string>
+    <string name="manfno">ManfNum</string>
+    <string name="upc">Upc</string>
+    <string name="description">Description</string>
+    <string name="pick_seq">Picking Seq</string>
+    <string name="qoh">Qty On Hand</string>
+    <string name="qc">Qty Counted</string>
+    <string name="uom">UOM</string>
+    <string name="qtyupdate">Quantity Update</string>
+    <string name="importsheet">Import WorkSheet</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="getlocation">Get Location</string>
+    <string name="scan">Scan</string>
+    <string name="fromloc">From Location</string>
+    <string name="toloc">To Location</string>
+
+    <!-- Strings related to Shipment Entry -->
+    <string name="mseTitle">Shipment Entry</string>
+    <string name="mse_customer_no">Customer Num</string>
+    <string name="mse_order_no">Order Num</string>
+    <string name="mse_cust_name">Customer Name</string>
+    <string name="search">Search</string>
+    <string name="msecategory">Category</string>
+    <string name="msefilter">Filter</string>
+    <string name="msevalue">Value</string>
+    <string name="mseentervalue">Enter Value</string>
+    <string name="getorddetails">Get Order Details</string>
+    <string name="msefrmdate">From Date</string>
+    <string name="msetodate">To Date</string>
+    <string name="mseenterdate">Enter Date</string>
+    <string name="mseexpoTitle">Shipment Export</string>
+    <string name="mseCheckAll">Check All</string>
+    <string name="mseexporesult">Shipment Export Result</string>
+    <string name="mseshipno">Shipment Number</string>
+    <string name="mseorderdate">Order Date</string>
+    <string name="mseordqty">Ordered Qty</string>
+    <string name="mseshipvia">Ship Via</string>
+    <string name="msecomments">Comments</string>
+    <string name="msestatus">Status</string>
+    <string name="companyname">Company Name</string>
+    <string name="mseshpqty">Shiped Qty</string>
+    <string name="mseshiptoloc">Ship To Loc</string>
+
+    <!-- Strings related to Purchase Order -->
+    <string name="mprTitle">Purchase Receipt</string>
+    <string name="mpr_vendor_no">Vendor Num</string>
+    <string name="mpr_po_no">PO Num</string>
+    <string name="mpr_vendor_name">Vendor Name</string>
+    <string name="mprcategory">Category</string>
+    <string name="mprfilter">Filter</string>
+    <string name="mprvalue">Value</string>
+    <string name="mprentervalue">Enter Value</string>
+    <string name="getpodetails">Get Po Details</string>
+    <string name="mprfrmdate">From Date</string>
+    <string name="mprtodate">To Date</string>
+    <string name="mprenterdate">Enter Date</string>
+    <string name="mprexpoTitle">PO Export</string>
+    <string name="mprCheckAll">Check All</string>
+    <string name="mprexporesult">PO Export Result</string>
+    <string name="mprshipno">Receipt Number</string>
+    <string name="mprpodate">PO Date</string>
+    <string name="mprordqty">Anticipated Qty</string>
+    <string name="mprshipvia">Ship Via</string>
+    <string name="mprcomments">Comments</string>
+    <string name="mprstatus">Status</string>
+    <string name="mprshpqty">Received Qty</string>
+    <string name="vendordetails">Vendor Details</string>
+    <string name="mprorderdate">Order Date</string>
+    <string name="podetails">Po Details</string>
+    <string name="mprrcptno">Receipt Number</string>
+    <string name="mprshiptoloc">Ship To Loc</string>
+    
+    <!-- Strings related to Location Transfer -->
+    <string name="mltTitle">Location Transfer</string>
+    <string name="arrival">Expected Arrival Date</string>
+    <string name="mlt_item_no">Item Num</string>
+    <string name="descr">Description</string>
+    <string name="desc">Description</string>
+    <string name="cost">Additional Cost</string>
+    <string name="mlt_upc_no">UPC</string>
+    <string name="mltFrom">From Location</string>
+    <string name="mltQtyUpdatee">Quantity Update</string>
+    <string name="mltTo">To Location</string>
+    <string name="mltOk">Ok</string>
+    <string name="mltQuantity">Quantity</string>
+    <string name="mltUOM">UOM</string>
+    <string name="mltCancel">Cancel</string>
+    <string name="mltexportresult">Export Result</string>
+    <string name="mltExit">Exit</string>
+    <string name="from">From</string>
+    <string name="itemNum">Item Num</string>
+    <string name="to">To</string>
+    <string name="require_quantity">Quantity</string>
+    <string name="uomm">UOM</string>
+    <string name="mltexport">Location Export</string>
+    <string name="mltDocNum">Document Num</string>
+    <string name="mltResult">Result</string>
+    <string name="mltCheck">Check All</string>
+    
+    
+    <string name="itemselection">Item Selection</string>
+    <string name="txtSelectLocation">Location</string>
+   <string name="txtTransaction">Transaction</string>
+     <string name="txtQty">Qty</string>
+    <string name="txtFinish">txtFinish</string>
+    
+    
+    
+    
+</resources>

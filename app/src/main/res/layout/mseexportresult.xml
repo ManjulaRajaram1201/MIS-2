@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_green"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/txt_mseTitle"
+        style="@style/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/mseexporesult" />
+
+    <View
+        android:id="@+id/txt_mseView"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/txt_mseTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#2E9AFE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_mseView"
+        android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/scroll_full"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lay_fullTitle" 
+                    android:layout_width="fill_parent"
+           			 android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="#000000"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        style="@style/textRegular_list"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:text="@string/mse_order_no"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        style="@style/textRegular_list"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        android:text="@string/mseshipno"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        style="@style/textRegular_list"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:text="@string/msestatus"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/lstSelOrder"
+                    style="@style/ListViewAppTheme.White"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </ListView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/lay_mse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_mseOkResult"
+                style="@style/ButtonAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

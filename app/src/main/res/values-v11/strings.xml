@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_spcode">SalesPerson Code</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_setting_in">Settings</string>
+    <string name="action_exit_in">Exit</string>
+    <string name="action_themes_in">Themes</string>
+    <string name="project_name">Mobile Inventory Suite 2.0</string>
+    <string name="project_name_">MIS</string>
+    <string name="shipmententry">Shipment Entry</string>
+	<string name="internalissue">Internal Issue</string>
+    <string name="inventorycount">Inventory Count</string>
+    <string name="locationtransfer">Location Transfer</string>
+    <string name="purchasereceipt">Purchase Receipt</string>
+    <string name="testconnection">Test Connection</string>
+    <string name="serverpath">Server Path</string>
+    <string name="savesettings">Save Setting</string>
+
+    <!-- Strings related to Inventory -->
+    <string name="invTitle">Inventory Count</string>
+    <string name="location">Location</string>
+    <string name="itemno">ItemNum</string>
+    <string name="manfno">ManfNum</string>
+    <string name="upc">Upc</string>
+    <string name="description">Description</string>
+    <string name="pick_seq">Picking Seq</string>
+    <string name="qoh">Qty On Hand</string>
+    <string name="qc">Qty Counted</string>
+    <string name="uom">UOM</string>
+    <string name="qtyupdate">Quantity Update</string>
+    <string name="importsheet">Import WorkSheet</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="getlocation">Get Location</string>
+    <string name="scan">Scan</string>
+    <string name="fromloc">From Location</string>
+    <string name="toloc">To Location</string>
+    <!-- Strings related to Shipment Entry -->
+    <string name="mseTitle">Shipment Entry</string>
+    <string name="mse_customer_no">Cust Num</string>
+    <string name="mse_order_no">Order Num     </string>
+    <string name="mse_cust_name">Customer Name</string>
+    <string name="search">Search</string>
+    <string name="msecategory">Category</string>
+    <string name="msefilter">Filter</string>
+    <string name="msevalue">Value</string>
+    <string name="mseentervalue">Enter Value</string>
+    <string name="getorddetails">Get Order Details</string>
+     <string name="getord">Get Order</string>
+    <string name="orderdetails">Order Details</string>
+    <string name="customerdetails">Customer Details</string>
+    <string name="msefrmdate">From Date</string>
+    <string name="msetodate">To Date</string>
+    <string name="mseenterdate">Enter Date</string>
+    <string name="mseexpoTitle">Shipment Export</string>
+    <string name="mseCheckAll">Check All</string>
+    <string name="mseexporesult">Shipment Export Result</string>
+   <string name="mseshipno">Shipment Number       </string>
+   <string name="mseorderdate">Order Date</string>
+   <string name="mseordqty">Ordered Qty</string>
+   <string name="mseshipvia">Ship Via</string>
+   <string name="msecomments">Comments</string>
+	<string name="msestatus">Status</string>
+   
+   <string name="mseshpqty">Shiped Qty</string>
+      <string name="mseshiptoloc">Ship To Loc</string>
+      <!-- 
+      These string act as temp string for listview in Mse_Custome
+      i.e predefined value so that both list doesnt get overlapped -->
+      <string-array name="sports_array">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>        
+    </string-array>
+    <!-- Strings related to Internal Entry -->
+    <string name="internalTitle">Internal Issue</string>
+    <string name="internal_customer_no">Cost Center</string>
+    <string name="internal_order_no">Internal Issue Num</string>
+    <string name="internal_cost_name">Cost Center</string>
+    <string name="internalcategory">Category</string>
+    <string name="internalfilter">Filter</string>
+    <string name="internalvalue">Value</string>
+    <string name="internalentervalue">Enter Value</string>
+    <string name="internalgetorddetails">Get II Details</string>
+     <string name="internalgetord">Get Internal Issue</string>
+    <string name="iidetails">II Details</string>
+    <string name="costcenterdetails">Cost Center Details</string>
+    <string name="internalfrmdate">From Date</string>
+    <string name="internaltodate">To Date</string>
+    <string name="internalenterdate">Enter Date</string>
+    <string name="internalexpoTitle">Internal Issue Export</string>
+    <string name="internalCheckAll">Check All</string>
+    <string name="internalexporesult">Export Result</string>
+   <string name="internalshipno">II Number       </string>
+   <string name="internalorderdate">Order Date</string>
+   <string name="internalordqty">Ordered Qty</string>
+   <string name="internalshipvia">Ship Via</string>
+   <string name="internalcomments">Comments</string>
+	<string name="internalstatus">Status</string>
+   
+   <string name="internalshpqty">Shiped Qty</string>
+      <string name="internalshiptoloc">Ship To Loc</string>
+      
+</resources>

@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\matheswaran.e\\StudioProjects\\MIS Universal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v9\\values-v9.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\matheswaran.e\\StudioProjects\\MIS Universal\\app\\src\\main\\res\\values-v9\\themes_apptheme.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "2",
+                        "startOffsets": "174",
+                        "endLines": "11",
+                        "endColumns": "10",
+                        "endOffsets": "529"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "404"
+                    }
+                }
+            ]
+        }
+    ]
+}
